@@ -3,13 +3,13 @@
 
 ## Prerequisite
 #### hardware 
--robot which provide odom message to ROS
--RGB-D camera
+- robot which provide odom message to ROS
+- RGB-D camera
 #### software 
--ROS kinetic (should also works on other version)
--ROS navigtion_stack 
--openni2
--kuboki robot package 
--depthimage_to_laser package
+- ROS kinetic (should also works on other version)
+- ROS navigtion_stack 
+- openni2
+- kuboki robot package 
+- depthimage_to_laser package
 
 ## Install
