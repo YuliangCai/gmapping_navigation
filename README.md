@@ -1,2 +1,3 @@
 # gmapping_navigation
-navigation code. Implemented with ros_navigation_stack, kuboki robot, and RGBD camera
+### The code is to implement 2-D navigation based on ROS navigation_stack, kobuki robot, and Asus proxion live RGB-D camera. 
+## Prerequisite
