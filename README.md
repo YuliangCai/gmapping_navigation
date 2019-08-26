@@ -14,6 +14,6 @@
 
 ## Install
 ```
-sudo 
+
 
 ```
