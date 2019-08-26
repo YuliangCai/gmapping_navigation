@@ -13,3 +13,7 @@
 - depthimage_to_laser package
 
 ## Install
+```
+sudo 
+
+```
