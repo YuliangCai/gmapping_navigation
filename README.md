@@ -43,4 +43,24 @@ then add the line under the second node
 install gmapping_navigation package
 ```
 git clone https://github.com/YuliangCai/gmapping_navigation.git
+cd ..
+catkin_make
 ```
+create new yaml file follow the guidance
+http://wiki.ros.org/navigation/Tutorials/RobotSetup
+
+##Run 
+open a new terminal 
+```
+roscd gmapping_navigation
+source devel/setup.bash
+```
+to map the room run 
+```
+roslaunch gmapping_navigation convert.launch
+```
+after mapping, close the launch file and start the navigation
+```
+roslaunch gmapping_navigation mobile.launch
+```
+
