@@ -59,7 +59,11 @@ to map the room, run:
 ```
 roslaunch gmapping_navigation convert.launch
 ```
-after mapping, close the launch file and start the navigation (keep it running):
+after mapping, use the map server to save the map: 
+```
+rosrun map_server map_saver -f <your_map_name>
+```
+close the launch file and start the navigation (keep it running):
 ```
 roslaunch gmapping_navigation mobile.launch
 ```
