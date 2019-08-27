@@ -30,3 +30,6 @@ install kobuki package
 ```
 sudo apt-get install ros-kinetic-kobuki ros-kinetic-kobuki-core
 ```
+install gmapping_navigation package
+```
+git clone 
