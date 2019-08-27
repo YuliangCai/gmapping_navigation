@@ -26,10 +26,11 @@ install install gmapping package
 ```
 sudo apt-get install ros-kinetic-gmapping
 ```
-install kobuki package
+install kobuki package 
 ```
 sudo apt-get install ros-kinetic-kobuki ros-kinetic-kobuki-core
 ```
 install gmapping_navigation package
 ```
-git clone 
+git clone https://github.com/YuliangCai/gmapping_navigation.git
+```
