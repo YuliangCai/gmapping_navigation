@@ -49,18 +49,28 @@ catkin_make
 create new yaml file follow the guidance
 http://wiki.ros.org/navigation/Tutorials/RobotSetup
 
-##Run 
+## Run 
 open a new terminal 
 ```
 roscd gmapping_navigation
 source devel/setup.bash
 ```
-to map the room run 
+to map the room, run:
 ```
 roslaunch gmapping_navigation convert.launch
 ```
-after mapping, close the launch file and start the navigation
+after mapping, close the launch file and start the navigation (keep it running):
 ```
 roslaunch gmapping_navigation mobile.launch
 ```
+to mark the location:
+```
+roslaunch gmapping_navigation mark.launch
+```
+type in the name with double quotation eg. "bedroom"
 
+to start navigation :
+```
+roslaunch gmapping_navigation goal.launch
+```
+type in the destination with double quotation eg. "bedroom"
