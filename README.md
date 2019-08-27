@@ -30,6 +30,16 @@ install kobuki package
 ```
 sudo apt-get install ros-kinetic-kobuki ros-kinetic-kobuki-core
 ```
+in kobuki package, we need to add a new parameter
+```
+roscd kobuki_node
+cd launch
+nano minimal.launch
+```
+then add the line under the second node
+```
+<param name="base_frame" value="base_link" />
+```
 install gmapping_navigation package
 ```
 git clone https://github.com/YuliangCai/gmapping_navigation.git
