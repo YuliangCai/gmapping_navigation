@@ -63,7 +63,7 @@ after mapping, use the map server to save the map:
 ```
 rosrun map_server map_saver -f <your_map_name>
 ```
-close the launch file and start the navigation (keep it running):
+close the launch file and start the navigation (keep it running), and don't forget to chage the argument of map_server node in mobile.launch to the map you want to load.
 ```
 roslaunch gmapping_navigation mobile.launch
 ```
