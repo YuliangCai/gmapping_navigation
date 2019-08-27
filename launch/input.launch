@@ -1,3 +1,0 @@
-<launch> 
-	<node pkg="gmapping_navigation" type="input" name="user_input" output="screen" />
-</launch>
